@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+}
+
+.mainContainer {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 32%;
+}
+
+.mainContainer > h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 66, 0.866);
+}
+
+.mainContainer > p {
+    font-size: 80px;
+    margin-top: 10px;
+    color: green;
+    font-weight: 600;
+}
+
+.mainContainer > button {
+    padding: 5px 10px;
+    margin: 10px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: solid 2px black;
+}
+
+.mainContainer >button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
