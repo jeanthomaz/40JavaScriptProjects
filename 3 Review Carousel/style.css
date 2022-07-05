@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body{ 
+    height: 100%;
+}
+
+.reviewbox {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    background-color: transparent;
+    width: 45%;
+    height: 50%;
+    min-width: 300px;
+    min-height: 500px;
+}
+
+.reviewbox > h1 {
+    margin-bottom: 60px;
+}
+
+.review {
+    top: 10%;
+    width: 70%;
+    margin-left: 14%;
+    background-color: rgb(244, 245, 246);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 200px;
+}
+
+.review > img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.review > p {
+    margin: 10px 30px;
+}
+
+#title {
+    color: rgb(0, 136, 255);
+    font-weight: bold;
+}
+
+.review > button {
+    margin: 5px 15px 10px 15px;
+    font-size: 35px;
+    background-color: transparent;
+    color: rgb(0, 136, 255);
+}
+
+.review > button:hover{
+    cursor: pointer;
+}
+
+#surpriseMe {
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: rgb(0, 136, 255);
+    border: solid rgb(0, 136, 255) 2px;
+}
+
+#surpriseMe:hover {
+    cursor: pointer;
+}
